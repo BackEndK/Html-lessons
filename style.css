@@ -1,0 +1,26 @@
+.text{ font-size: 32px; /**클래스안에있는거**/
+    color: red;
+    font-family: 'Times New Roman', Times, serif; /**글꼴명을 속성값으로 저장 'Times New Roman' > Times> serif 순서순 **/
+}
+#dadada{ font-size: 2rem; /**ID값**/
+    color: aqua;
+}
+h1, p{
+    color: blue;
+    text-align: center; /**텍스트 위치 정하기**/
+
+}
+span{
+    border: 2px solid green; /* span 태그에 글자에 초록색 블럭으로 표시*/
+    font-size: 32px;
+}
+div{
+    display: inline; /*블럭 레벨 요소인 div가 인라인으로 처리*/
+    border: 1px solid red;
+}
+a{
+    display: inline; /*인라인 요소인 a가 블럭 레벨으로 처리*/
+}
+/*{ 전체 확장자
+
+} */
